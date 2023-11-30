@@ -1,0 +1,624 @@
+/* FONTES DO DOCUMENTO */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+/*********************************************/
+
+
+/* ESTILOS INICIAIS E UNIVERSAIS */
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+}
+
+body {
+    height: 3000px;
+    margin: 0;
+    background-color: #ade2ad43;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/**************************************************/
+
+/* Header/nav do elemento preso ao topo! */
+
+.nave {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #edf8ed;
+    box-shadow: rgba(3, 67, 17, 0.322) 0px 4px 12px;
+    top: 0;
+    line-height: 5;
+}
+
+.nave ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+}
+
+.nave ul li {
+    margin-right: 4rem;
+    transition: all 0.5s ease;
+}
+
+.nave ul li:hover {
+    transform: scale(1.3);
+}
+
+.nave a {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(3, 69, 38);
+    font-weight: bolder;
+    position: relative;
+    
+}
+
+.logo img {
+    margin-top: 22px;
+    margin-left: 10%;
+    width: 160px;
+    transition: all 0.4s ease;
+} 
+
+.logo img:hover {
+    transform: scale(1.2);
+}
+
+.botoes {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    position: absolute;
+    margin-left: 76%;
+    margin-top: -92px;
+}
+
+.botoes-p {
+    font-family: 'Montserrat', sans-serif !important;
+    color: rgb(3, 69, 38) !important;
+    font-weight: bolder !important;
+    position: relative !important;
+}
+
+.login {
+    margin-top: -50px;
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 1px solid green;
+    background-color:rgba(167, 181, 171, 0.237);
+    color: rgb(33, 123, 62);
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+
+.login:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: rgb(14, 112, 38);
+}
+
+.cadastro {
+    margin-top: -50px;
+    margin-left: 20px;
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 1px solid green;
+    background-color:rgba(167, 181, 171, 0.237);
+    color: rgb(33, 123, 62);
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+
+
+.cadastro:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: rgb(14, 112, 38);
+}
+
+/**********************************************************************/
+
+/* Home com uma div simulando a mesma funcionalidade do aplicativo para celular*/
+
+.home {
+    background-image: url(../assets/mulher-segurando-mapa.jpg);
+    background-size: 100%;
+    margin-bottom: -50px;
+    margin-top: 135px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 8px;
+}
+
+.box_home {
+    width: 360px;
+    height: 380px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 2px 6px 16px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 8px;
+}
+
+.box_home h2{
+    color: rgb(27, 85, 51);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box_home p {
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.botoes2{
+    margin-top: 30px;
+}
+
+.botao_one button {
+    width: 320px;
+    height: 30px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 1px solid green;
+    background-color:rgba(167, 181, 171, 0.237);
+    color: rgb(33, 123, 62);
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+
+.botao_two button {
+    margin-top: 20px;
+    width: 320px;
+    height: 30px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 1px solid green;
+    background-color:rgba(167, 181, 171, 0.237);
+    color: rgb(33, 123, 62);
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+
+.botao_two button:hover, .botao_one button:hover {
+    transform: scale(1.1);
+}
+
+/************************************************************************/
+
+/* SOBRE - Expecificações da funcionalidade do aplicativo */
+
+.box_quatro_img {
+    background-image: url(../imgs/amigos-carona.jpg);
+    background-size: 100%;
+}
+
+.box_sobre_quatro {
+    margin-top: 120px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    padding: 70px;
+    text-shadow: black 2px 2px 3px;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+.box_sobre_um {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(43, 167, 82);
+    height: 350px;
+}
+
+.sobre_um {
+    padding-top: 90px !important;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 450px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.sobre_um_logo {
+    margin-top: 23px;
+    width: 490px;
+    transition: all 0.4s ease;
+    margin-bottom: 20px;
+}
+
+.sobre_um_logo:hover {
+    transform: scale(0.9);
+}
+
+.box_sobre_dois {
+    background-color: rgb(22, 133, 57);
+    display: flex;
+    justify-content: center;
+    height: 270px;
+    
+}
+
+.sobre_dois {
+    margin-top: -25px;
+    padding: 50px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 450px;
+    margin-left: 490px;
+}
+
+.sobre_dois_logo {
+    margin-top: -36px;
+    width: 500px;
+    margin-right: -480px;
+    transition: all 0.4s ease;
+}
+
+.sobre_dois_logo:hover{
+    transform: scale(0.9);
+}
+
+.box_sobre_tres {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(33, 155, 98);
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 70px;
+}
+
+/* BOX de benéficios do aplicativo */
+
+.beneficios {
+    padding-top: 140px;
+    height: 600px;
+    background-color: rgb(211, 252, 211);
+}
+
+.box_um_maxter {
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.box_um_bene {
+    width: 300px;
+    background-color: rgb(53, 134, 100);
+    border-radius: 15px;
+    height: 250px;
+    color: white;
+    padding: 30px;
+    transition: all 0.4s ease;
+}
+
+.box_um_bene:hover {
+    transform: scale(1.1);
+}
+
+.box_um_bene img {
+    width: 40px;
+    margin-left: 40%;
+    filter: invert(100%);
+}
+
+.box_um_maxter h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.box_um_maxter p {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.box_dois_bene {
+    width: 300px;
+    margin-left: 55px;
+    background-color: rgb(53, 134, 100);
+    border-radius: 15px;
+    height: 250px;
+    color: white;
+    padding: 30px;
+    transition: all 0.4s ease;
+}
+
+.box_dois_bene:hover {
+    transform: scale(1.1);
+}
+
+.box_dois_bene img {
+    width: 40px;
+    margin-left: 40%;
+    filter: invert(100%);
+}
+
+.box_dois_maxter h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.box_dois_maxter p {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.box_tres_bene {
+    width: 300px;
+    margin-left: 55px;
+    background-color: rgb(53, 134, 100);
+    border-radius: 15px;
+    height: 250px;
+    color: white;
+    padding: 30px;
+    transition: all 0.4s ease;
+}
+
+.box_tres_bene:hover {
+    transform: scale(1.1);
+}
+
+.box_tres_bene img {
+    width: 40px;
+    margin-left: 40%;
+    filter: invert(100%);
+}
+
+.box_tres_maxter h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.box_tres_maxter p {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.box_quatro_bene {
+    width: 1181px;
+    background-color: rgb(53, 134, 100);
+    border-radius: 15px;
+    height: 120px;
+    color: white;
+    padding: 25px;
+    transition: all 0.4s ease;
+    margin-top: 20px;
+}
+
+.box_quatro_bene:hover {
+    transform: scale(0.9);
+}
+
+.box_quatro_bene img {
+    width: 30px;
+    margin-left: 48%;
+    margin-top: -10px;
+    filter: invert(100%);
+}
+
+.box_quatro_bene h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.box_quatro_bene p {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+/************************************************************/
+
+
+/* Box simulando o link com a loja de aplicativos */
+
+.box_baixar {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(67, 199, 89, 0.747);
+    height: 650px;
+}
+.baixar-one-center {
+    width: 85%;
+    margin: 20px auto;
+    display: flex;
+    align-self: center;
+    padding: 0;
+}
+
+.box_baixar_one img{
+    margin-top: 120px;
+    width: 500px;
+    height: 500px;
+}
+
+.box_baixar_two {
+    margin-left: 80px;
+    margin-top: 120px;
+    background-color: rgb(255, 255, 255);
+    width: 320px;
+    height: 410px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: rgb(21, 51, 27) 2px 2px 16px;
+}
+
+.box_baixar_two h1 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(35, 177, 35);
+}
+
+.box_baixar_two h2 {
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.app {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.app img {
+    width: 155px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.app img:hover{
+    transform: scale(1.1);
+}
+
+.box_baixar_two p {
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: rgb(35, 177, 35);
+    margin-bottom: 10px;
+    
+}
+
+.buton {
+    text-align: center;
+}
+
+.button_baixar {
+    margin-top: 10px;
+    width: 300px;
+    height: 35px;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color:rgba(167, 181, 171, 0.237);
+    color: rgb(33, 123, 62);
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+
+.button_baixar:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: rgb(14, 112, 38);
+}
+
+/*****************************************************************/
+
+/* RODAPÉ */
+
+.pezin {
+    background-color: #4A4B4A;
+    height: 350px;
+    padding: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.pe img {
+    width: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.pe li{
+    display: flex;
+    margin-bottom: 30px;
+    margin-right: 800px;
+}
+
+.pe a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.pe a:hover {
+    transform: scale(1.1);
+    color: rgb(0, 255, 0);
+}
+
+.pe p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+.direitos {
+    display: flex;
+    justify-content: center;
+}
+
+.redes {
+    width: 416px;
+    height: 120px;
+    color: white;
+    margin-top: -120px;
+    margin-left: 70%;
+}
+
+.social a {
+    margin-right: 20px;
+}
+
+.redes p {
+    font-weight: 500;
+    margin-left: 15%;
+    margin-bottom: -30px;
+}
+
+.redes img {
+    margin-top: 10;
+    margin-right: -40px;
+    margin-left: 62px;
+    width: 35px;
+    filter: invert(100%);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.redes img:hover{
+    transform: scale(1.2);
+}
+
+/****************************************************/
