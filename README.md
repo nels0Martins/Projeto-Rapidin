@@ -48,7 +48,7 @@ CSS:
 Utilizado para estilizar e dar um visual atraente às páginas do aplicativo, garantindo uma experiência de usuário agradável.
 
 JavaScript:
-Adiciona interatividade e dinamismo ao Rapidin, possibilitando a validação de formulários e melhorando a experiência do usuário.
+Adiciona interatividade e dinamismo.
 
 PHP:
 Responsável pelo backend da aplicação, gerenciando o CRUD e a interação com o banco de dados para armazenar e recuperar informações dos usuários.
