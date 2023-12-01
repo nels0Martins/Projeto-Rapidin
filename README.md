@@ -1,4 +1,4 @@
-# README - Projeto Rapidin
+# Projeto Rapidin
 
 Bem-vindo ao projeto Rapidin, um aplicativo fictício de caronas, desenvolvido com um sistema de CRUD (Create, Read, Update, Delete) em PHP para gerenciar os cadastros de usuários no site. Este README fornecerá informações essenciais sobre o projeto, suas funcionalidades e como utilizá-lo.
 
