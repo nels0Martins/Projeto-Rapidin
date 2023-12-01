@@ -52,3 +52,11 @@ Adiciona interatividade e dinamismo.
 
 PHP:
 Responsável pelo backend da aplicação, gerenciando o CRUD e a interação com o banco de dados para armazenar e recuperar informações dos usuários.
+
+## Vídeo de Apresentação
+
+O vídeo de apresentação do projeto foi produzido por Nelson Martins e Leticia Lima.
+
+<strong><a href='https://youtu.be/zsBrGYZOjUM'>Clique para ver o video</a></strong>
+
+Agradecemos pelo esforço e dedicação de toda a equipe no desenvolvimento do Rapidin! 🚗✨
