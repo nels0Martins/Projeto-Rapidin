@@ -27,10 +27,12 @@ A página de exclusão de usuário oferece a opção de remover um perfil cadast
 Medidas de segurança são implementadas para evitar exclusões acidentais.
 
 ## Como Utilizar
-
 Para executar o projeto Rapidin localmente, siga estas etapas:
 
-Clone este repositório em sua máquina local.
-Configure um servidor PHP e um banco de dados MySQL.
-Importe o script de criação do banco de dados fornecido.
+* Clone este repositório em sua máquina local.
+* Configure um servidor PHP e um banco de dados MySQL.
+* Importe o script de criação do banco de dados fornecido.
+
+## Sobre o Projeto
+O projeto Rapidin foi desenvolvido como parte do curso de Programação Web, utilizando um conjunto de tecnologias modernas para criar uma aplicação de caronas prática e funcional.
 Inicie o servidor e acesse o aplicativo através do navegador.
