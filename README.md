@@ -53,6 +53,16 @@ Adiciona interatividade e dinamismo.
 PHP:
 Responsável pelo backend da aplicação, gerenciando o CRUD e a interação com o banco de dados para armazenar e recuperar informações dos usuários.
 
+## Equipe de Desenvolvimento
+
+O Rapidin foi criado por um grupo dedicado de estudantes:
+
+* Nelson Martins
+* Leticia Lima
+* Gabriel Nogueira
+* Vitor Souza
+* Guilherme Oliveira
+
 ## Vídeo de Apresentação
 
 O vídeo de apresentação do projeto foi produzido por Nelson Martins e Leticia Lima.
