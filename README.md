@@ -36,3 +36,19 @@ Para executar o projeto Rapidin localmente, siga estas etapas:
 ## Sobre o Projeto
 O projeto Rapidin foi desenvolvido como parte do curso de Programação Web, utilizando um conjunto de tecnologias modernas para criar uma aplicação de caronas prática e funcional.
 Inicie o servidor e acesse o aplicativo através do navegador.
+
+## Tecnologias Utilizadas
+
+O Rapidin é construído com as seguintes tecnologias:
+
+HTML:
+Responsável pela estruturação e marcação das páginas web.
+
+CSS:
+Utilizado para estilizar e dar um visual atraente às páginas do aplicativo, garantindo uma experiência de usuário agradável.
+
+JavaScript:
+Adiciona interatividade e dinamismo ao Rapidin, possibilitando a validação de formulários e melhorando a experiência do usuário.
+
+PHP:
+Responsável pelo backend da aplicação, gerenciando o CRUD e a interação com o banco de dados para armazenar e recuperar informações dos usuários.
